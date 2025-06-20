@@ -20,6 +20,9 @@ Yes, much faster than 2-D Addressing
 
 #Approach 2 (Optimized) - Separate Chaining using Python lists
 
+#Explanation (within 3 lines) - Made use of a primary array of buckets, each of which hold a list of elements which 
+# are present within the bucket in case a collision occurs.
+
 class MyHashSet:
 
     def __init__(self):

@@ -16,6 +16,9 @@ Yes
 
 """
 
+#Explanation (within 3 lines) - Made use of a stack with a pair of elements, one which tells us the current
+# top of the stack, and the second which tells us the min element in the stack at that point
+
 class MinStack:
 
     def __init__(self):
